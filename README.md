@@ -2,7 +2,7 @@
 
 Convex hull hand detection code.  
 
-#How it works
+# How it works
 
 1. set upper color and lower color. This may be your skin color.  
 2. Read camera frame.
@@ -10,7 +10,13 @@ Convex hull hand detection code.
 4. Calculate contour of white area.  
 5. Draw convex hull at RGB frame.  
 
-#Require
+# Example
+
+![Example](https://user-images.githubusercontent.com/56443524/105649199-8caa4e00-5ef2-11eb-83a4-c44b15a4240f.PNG)
+
+
+
+# Require
 
 Cv2  
 Numpy
